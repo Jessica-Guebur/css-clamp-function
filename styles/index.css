@@ -14,9 +14,7 @@ img {
 .container {
   max-width: 1024px;
   margin-inline: auto;
-  padding: 4rem;
-  /*   padding: clamp(1rem, -0.923rem + 7.692vw, 4rem);
- */
+  padding:clamp(1rem, -0.923rem + 7.692vw, 4rem);
 }
 
 h1,
@@ -25,74 +23,17 @@ h2 {
 }
 
 h1 {
-  font-size: 3.5rem;
-  /*   font-size: clamp(1.8rem, 0.71rem + 4.359vw, 3.5rem);
- */
+  font-size: clamp(1.8rem, 0.71rem + 4.359vw, 3.5rem);
+
 }
 
 h2 {
-  font-size: 2.5rem;
-  /*   font-size: clamp(1.25rem, 0.449rem + 3.205vw, 2.5rem);
- */
+  font-size: clamp(1.3rem, 0.531rem + 3.077vw, 2.5rem);
+
 }
 
 p {
   line-height: 160%;
-  font-size: 1.2rem;
-  /*   font-size: clamp(0.8rem, 0.544rem + 1.026vw, 1.2rem);
- */
-}
-
-@media (max-width: 769px) {
-  .container {
-    padding: 3rem;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  h2 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 600px) {
-  .container {
-    padding: 2rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  p {
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 400px) {
-  .container {
-    padding: 1rem;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
-
-  h2 {
-    font-size: 1.25rem;
-  }
-
-  p {
-    font-size: 0.8rem;
-  }
+  font-size: clamp(0.8rem, 0.544rem + 1.026vw, 1.2rem);
+ 
 }
